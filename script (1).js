@@ -24,9 +24,9 @@ function submitForm() {
 }
 
 function countdown() {
-    // Waktu tujuan (pukul 15:16 WIB hari ini)
+    // Waktu tujuan (pukul 23:30 WIB hari ini)
     const targetTime = new Date();
-    targetTime.setHours(16, 36, 0, 0); // Set pukul 15:17 WIB
+    targetTime.setHours(23, 30, 0, 0); // Set pukul 23:30 WIB
 
     const interval = setInterval(() => {
         const now = new Date();
